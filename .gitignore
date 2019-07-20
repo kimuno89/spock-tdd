@@ -1,0 +1,5 @@
+gradle/wrapper
+out/production/classes
+out
+.idea
+.gradle
