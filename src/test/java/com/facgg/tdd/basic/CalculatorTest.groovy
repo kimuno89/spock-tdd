@@ -7,7 +7,7 @@ class CalculatorTest extends Specification {
 
     void setup() {}
 
-    def setupSpec() {}
+    void setupSpec() {}
 
     void cleanup() {}
 

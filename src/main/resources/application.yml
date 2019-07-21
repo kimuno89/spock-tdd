@@ -1,1 +1,14 @@
-
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 12345678
+    url: jdbc:mysql://localhost:3306/tdd?createDatabaseIfNotExist=true
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true,
+        use_sql_comments: true,
+        format_sql: true
